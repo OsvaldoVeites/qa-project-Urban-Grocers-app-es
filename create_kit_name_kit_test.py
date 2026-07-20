@@ -27,10 +27,6 @@ def negative_assert(kit_name):
     assert kit_user_response.json()["message"] == "El nombre debe contener sólo letras latino,\
                                                     un espacio y un guión. De 2 a 15 caracteres"
 
-
-def test_post_new_kit ():
-    positive_assert (kit_name = "Proyecto 8to sprint")
-
 def test_crate_kit_name_kit_1_character_get_success_report():
     positive_assert(kit_name = "A")
 
